@@ -1,0 +1,42 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+.env
+.venv/
+venv/
+env/
+
+# Packaging
+build/
+dist/
+*.egg-info/
+
+# ---- Jupyter ----
+.ipynb_checkpoints
+
+# ---- IDE / Editor ----
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---- OS files ----
+.DS_Store
+Thumbs.db
+
+# ---- Logs & temporary outputs ----
+log/
+logs/
+*.log
+*.tmp
+
+# ---- Simulation / trajectory files (optional, often large) ----
+*.lammpstrj
+*.dump
+*.xyz
+
+# Uncomment the following if you DON'T want to track trained models
+# *.pb

@@ -1,0 +1,17 @@
+# Core scientific Python stack
+numpy
+matplotlib
+scikit-learn
+
+# Jupyter environment
+jupyter
+jupyterlab
+
+# Deep learning & DeepMD
+tensorflow>=2.10
+dpdata>=0.2.20
+deepmd-kit
+
+# Optional: tools often used with atomistic simulations
+# ase
+# pymatgen
