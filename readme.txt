@@ -1,27 +1,4 @@
 FILE: deepmd_training_nmc.ipynb - chạy trên môi trường Jupyter Notebook or Google Colab
-
-*** Dữ liệu đầu vào: file OUTCAR (xuất từ VASP) chứa thông tin cấu trúc, năng lượng nguyên tử của vật liệu (VD ở đây là mẫu NMC622)
-
-*** Chuẩn bị dữ liệu và huấn luyện mô hình (code ở cell 1 trong notebook)
- - Đọc dữ liệu OUTCAR, chia thành tập huấn luyện và tập kiểm thử.
- - Tạo thư mục training_data và validation_data.
- - Chỉnh sửa file cấu hình input.json (số bước học, mạng neuron, tham số sel,...).
- - Chạy huấn luyện mô hình Deep Potential (DP) để tạo các file graph.pb và graph-compress.pb – mô hình thế năng học sâu.
- 
- *** Kiểm tra kết quả và vẽ đồ thị (code ở cell 2 trong notebook)
-  - Dùng mô hình đã huấn luyện để kiểm thử trên tập dữ liệu kiểm định.
-  - Sinh các file kết quả:
-    + lcurve.out → dữ liệu đường cong huấn luyện
-    + tests.e.out → so sánh năng lượng dự đoán và DFT
-   - Vẽ đồ thị hiển thị trực tiếp trong notebook:
-    + Learning curve: độ lỗi theo bước học.
-    + Prediction vs Data: năng lượng dự đoán được từ mô hình so với dữ liệu tham chiếu.
-    
- *** Dữ liệu đầu ra cuối cùng:
-  - Mô hình DP: graph-compress.pb – dùng cho mô phỏng LAMMPS (pair_style deepmd).
-  - Đồ thị kết quả: lcurve.png, tests.e.png – đánh giá độ chính xác mô hình.
-  
-  
 # ==========================================================
 # FILE: deepmd_training_nmc.ipynb
 # PURPOSE: Train and validate a Deep Potential model from VASP (OUTCAR) data of NMC
