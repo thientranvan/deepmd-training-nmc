@@ -1,5 +1,6 @@
 # DeepMD Training for Ni-rich NMC Cathodes
 
+[![DOI](https://img.shields.io/badge/DOI-10.1039%2FD5RA03510D-purple.svg)](https://doi.org/10.1039/D5RA03510D)
 [![DOI](https://zenodo.org/badge/1097141640.svg)](https://doi.org/10.5281/zenodo.17618776)
 
 This repository contains a self-contained Jupyter workflow to train and validate a Deep Potential (DeePMD) model for Ni-rich NMC cathode materials directly from a single VASP `OUTCAR` file.
@@ -14,7 +15,7 @@ The code and workflow were used in the following peer-reviewed publication:
 > To Van Nguyen, Truong Minh Thai, Yoshiyuki Kawazoe, and Minh Triet Dang.**  
 > *Enhancement of stability and electronic properties of ultra-high nickel cathodes by aluminium and boron codoping studied by combined density functional theory and neural network models.*  
 > **RSC Advances**, 2025.  
-> DOI: [10.1039/D5RA03510D](https://doi.org/10.1039/D5RA03510D)
+> [![DOI](https://img.shields.io/badge/DOI-10.1039%2FD5RA03510D-purple.svg)](https://doi.org/10.1039/D5RA03510D)
 
 If you use this repository, model, or workflow, please cite the publication above.
 
@@ -203,7 +204,7 @@ please cite the following peer-reviewed publication where this workflow was used
 > To Van Nguyen, Truong Minh Thai, Yoshiyuki Kawazoe, and Minh Triet Dang.**  
 > *Enhancement of stability and electronic properties of ultra-high nickel cathodes by aluminium and boron codoping studied by combined density functional theory and neural network models.*  
 > **RSC Advances**, 2025.  
-> DOI: [10.1039/D5RA03510D](https://doi.org/10.1039/D5RA03510D)
+> [![DOI](https://img.shields.io/badge/DOI-10.1039%2FD5RA03510D-purple.svg)](https://doi.org/10.1039/D5RA03510D)
 
 BibTeX entry:
 
